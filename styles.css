@@ -1,0 +1,86 @@
+
+
+.parent-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+
+.box-1, .box-2 , .box-3{
+    flex: 1;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+}
+
+.box-2{
+    
+    background-color: #5046B7;
+    color: #fff;
+    
+}
+.card-heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+/* list styling */
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+    
+li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+li:before {       
+    content: '\2713';
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    font-family: fontAwesome;
+   
+}
+
+.card-image{
+    margin-top: 20px;
+    text-align: center;
+}
+.money-img{
+    height: 180px;
+}
+
+.lite-plan, .pro-plan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action{
+    margin-top:40px;
+    text-align: center;
+    display: block;
+}
+
+.white-btn{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+.blue-btn{
+    background-color: #5046B7;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+
+.white-btn:hover , .blue-btn:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
